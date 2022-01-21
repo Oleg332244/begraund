@@ -89,7 +89,7 @@ header.fixed #logo {
 
 #top {
    width: 100%;
-   background: url(/img/Фото\ на\ аву\ .jpg);
+   background: url(img/Фото_на_аву.jpg);
    background-blend-mode: multiply;
    background-color: #5b9acf;
    background-size: cover;
