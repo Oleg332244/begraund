@@ -1,0 +1,34 @@
+h1 {
+   color: #2f3286;
+}
+p {
+   color: aqua;
+}
+#paragraf-2 {
+   color: #000;
+}
+.paragraf-3 {
+   color: green;
+}
+
+.paragraf-4.text {
+   color: blue;
+}
+
+.paragraf-5.text span {
+   color: red;
+}
+
+.monitor-27d > p {
+   color: #18866c;
+}
+
+.monitor-28d + p {
+   color: #0d3094;
+}
+.monitor-32d ~ p {
+   color: #790568;
+}
+[class*="text-42"] {
+   color: #f4ca16;
+}
