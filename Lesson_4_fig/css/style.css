@@ -1,0 +1,28 @@
+@import "null.css";
+/* &display=swap */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,900;1,700&display=swap");
+
+body {
+   font-family: "lato", sans-serif;
+   font-size: 16px;
+   color: #424551;
+   line-height: 1.6;
+}
+
+.top-title {
+   color: #1e212c;
+   font-size: 46px;
+   line-height: 1.3;
+   font-weight: 900;
+}
+
+.subtitle {
+   color: #1e212c;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 1.5;
+}
+
+li {
+   text-indent: 25px;
+}
