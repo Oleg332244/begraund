@@ -1,0 +1,91 @@
+@import "null.css";
+/* &display=swap */
+
+/* подключил с помощу плагина*/
+@import url("https://fonts.googleapis.com/css?family=Montserrat:regular,700Montserrat, italic & display=swap");
+
+/* подключил с помощю гуг фонс */
+@import url("https://fonts.googleapis.com/css2? family= Roboto:wght@400;900 & display=swap");
+
+/* загруженый и конвентированый шрифт */
+@font-face {
+   font-family: "Rubik";
+   src: url("../fons/Rubik-Regular.woff2") format("woff2"), url("../fons/Rubik-Regular.woff") format("woff");
+   font-style: normal;
+   font-weight: 400;
+   font-display: swap;
+}
+@font-face {
+   font-family: "Rubik";
+   src: url("../fons/Rubik-Bold.woff2") format("woff2"), url("../fons/Rubik-Regular.woff") format("woff");
+   font-style: normal;
+   font-weight: 700;
+   font-display: swap;
+}
+
+body {
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+   font-size: 20px;
+}
+.top {
+   font-family: Montserrat;
+}
+
+.top-title {
+   color: #2b303b;
+   font-weight: 700;
+   font-size: 30px;
+   text-align: center;
+   text-shadow: 2px 2px 4px rgb(11, 4, 4);
+   text-transform: uppercase;
+}
+.top-text {
+   font-size: 20px;
+   text-align: right;
+   font-style: italic;
+}
+
+.info-text {
+   font-family: Roboto;
+   font-style: italic;
+   text-align: justify;
+}
+
+.characteristics {
+   font-family: Rubik, serif;
+}
+.characteristics-title {
+   font-weight: bold;
+   font-size: 25px;
+   text-align: center;
+}
+.characteristics-text {
+   font-size: 22px;
+   font-weight: 700;
+}
+.characteristics-list {
+   line-height: 1.5;
+}
+.characteristics-list li {
+   text-indent: 35px;
+}
+
+.opportunities-title {
+   font-weight: 700;
+   font-size: 25px;
+   text-align: center;
+}
+.opportunities-text-1 {
+   letter-spacing: 1px;
+   word-spacing: 5px;
+}
+.opportunities-text-2 {
+   text-decoration: overline;
+}
+.opportunities-text-3 {
+   text-decoration: underline;
+}
+
+.footer {
+   text-align: center;
+}
