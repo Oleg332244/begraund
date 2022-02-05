@@ -1,0 +1,67 @@
+/* &display=swap */
+@import "null.css";
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap");
+/* ================================================================ */
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+}
+/* ================================================================ */
+.container {
+   width: 810px;
+   margin: 0 auto;
+   padding: 50px 0px 80px 0px;
+}
+.main {
+   color: #424551;
+   font-size: 16px;
+   font-family: lato, serif;
+   font-size: 16px;
+   line-height: 1.6;
+}
+.top {
+   margin: 0px 0px 50px 0px;
+}
+.top-title {
+   font-family: lato, serif;
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 1.3;
+   margin: 0px 0px 70px 0px;
+   color: #1e212c;
+}
+
+.img img {
+   max-width: 100%;
+}
+.center {
+   margin: 0px 0px 40px 0px;
+}
+.center-subtinle {
+   margin: 0px 0px 30px 0px;
+}
+
+.subtitle {
+   font-family: lato, serif;
+   font-weight: bold;
+   font-size: 20px;
+   line-height: 1.5;
+   color: #1e212c;
+}
+.center-text-1 {
+   margin: 0px 0px 30px 0px;
+}
+
+.botomn-subtinle {
+   padding: 0px 0px 0px 50px;
+   margin: 0px 0px 40px 0px;
+}
+.botomn-text-list {
+   margin: 0px 0px 30px 0px;
+}
+.botomn-list {
+   margin: 0px 0px 30px 25px;
+}
+.botomn-list li {
+   margin: 0px 0px 10px 0px;
+}
