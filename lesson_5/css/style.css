@@ -42,6 +42,7 @@
    text-align: center;
    line-height: 2;
    margin: 0px 0px 25px 0px;
+   box-shadow: 7px 7px 1px rgba(43, 48, 59, 0.5);
 }
 .header-title {
    text-transform: uppercase;
@@ -147,8 +148,8 @@ h3 {
 }
 
 .footer {
+   background-color: #9ccfda;
    padding: 17px 0px 0px 0px;
    text-align: center;
    height: 50px;
-   background-color: #9ccfda;
 }
