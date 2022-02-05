@@ -35,11 +35,13 @@
 .container {
    max-width: 800px;
    margin: 0 auto;
-   padding: 50px 0px 0px 50px;
+   padding: 0px 0px 0px 50px;
 }
 .header {
+   text-align: center;
    line-height: 2;
    margin: 0px 0px 30px 0px;
+   background-color: #9ccfda;
 }
 .header-title {
    text-transform: uppercase;
@@ -146,4 +148,6 @@ h3 {
 
 .footer {
    text-align: center;
+   height: 50px;
+   background-color: #9ccfda;
 }
