@@ -59,12 +59,19 @@ a {
 }
 p {
    margin: 0px 0px 20px 0px;
+   text-indent: 25px;
 }
 .top {
    margin: 0px 0px 30px 0px;
 }
 
 .block {
+   margin: 0px 0px 50px 0px;
+}
+.concept {
+   font-family: Roboto, serif;
+}
+.packaging {
    background-color: #ccc;
    width: 790px;
    margin: 0 auto;
@@ -86,25 +93,55 @@ p {
 .img img {
    max-width: 100%;
 }
-.consept-content {
+.content {
    padding: 0px 0px 0px 30px;
-   max-height: 220px;
+   max-height: 240px;
    margin: 0 auto;
    overflow: auto;
 }
-.concept-text-1 {
-}
-.concept-text-2 {
-}
-.concept-box {
+
+.box {
    background-color: #ffc85c;
    padding: 10px 30px;
    margin: 0px 20px 20px 0px;
 }
-.concept-box-text {
+.box-text {
    font-style: italic;
    margin: 0;
    font-size: 18px;
+}
+
+h3 {
+   font-weight: 700;
+   color: #f07427;
+   text-decoration-line: overline;
+   margin: 0px 0px 10px 0px;
+}
+.Benefit-list {
+   padding: 0px 0px 0px 10px;
+   margin: 0px 0px 30px 0px;
+}
+.Benefit-list li {
+   margin: 0px 0px 5px 0px;
+}
+.scheme-subtitle-2 {
+   text-align: center;
+   text-decoration-line: underline;
+   font-size: 18px;
+   font-weight: 700;
+   color: #006262;
+   letter-spacing: 2px;
+   margin: 0px 0px 10px 0px;
+}
+.scheme-list {
+   padding: 0px 0px 0px 10px;
+   margin: 0px 0px 30px 0px;
+}
+.scheme-list li {
+   margin: 0px 0px 5px 0px;
+}
+.minuses-list-title {
+   text-decoration: none;
 }
 
 .footer {
