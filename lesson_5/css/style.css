@@ -1,0 +1,112 @@
+/* &display=swap */
+@import "null.css";
+
+/* подключил с помощу плагина*/
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:regular,700,italic&display=swap");
+
+/* подключил с помощю гуг фонс */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,900&display=swap");
+
+/* загруженый и конвентированый шрифт */
+@font-face {
+   font-family: "Rubik";
+   src: url("../fons/Rubik-Regular.woff2") format("woff2"), url("../fons/Rubik-Regular.woff") format("woff");
+   font-style: normal;
+   font-weight: 400;
+   font-display: swap;
+}
+@font-face {
+   font-family: "Rubik";
+   src: url("../fons/Rubik-Bold.woff2") format("woff2"), url("../fons/Rubik-Regular.woff") format("woff");
+   font-style: normal;
+   font-weight: 700;
+   font-display: swap;
+}
+
+/* ================================================================ */
+
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+}
+/* ================================================================ */
+
+.container {
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 50px 0px 0px 50px;
+}
+.header {
+   line-height: 2;
+   margin: 0px 0px 30px 0px;
+}
+.header-title {
+   text-transform: uppercase;
+   text-align: center;
+   font-size: 20;
+   font-weight: 700;
+}
+.main {
+   font-family: Rubik;
+}
+
+a {
+   font-family: Montserrat, serif;
+   font-size: 17px;
+   color: green;
+   font-weight: 700;
+}
+p {
+   margin: 0px 0px 20px 0px;
+}
+.top {
+   margin: 0px 0px 30px 0px;
+}
+
+.block {
+   background-color: #ccc;
+   width: 790px;
+   margin: 0 auto;
+}
+
+.subtitle {
+   padding: 20px 0px 0px 0px;
+   margin: 0px 0px 20px 0px;
+   font-family: Roboto, serif;
+   color: rgb(5, 206, 5);
+   text-align: center;
+   font-size: 18px;
+}
+.img {
+   width: 790px;
+   padding: 10px;
+   margin: 0px 0px 30px 0px;
+}
+.img img {
+   max-width: 100%;
+}
+.consept-content {
+   padding: 0px 0px 0px 30px;
+   max-height: 220px;
+   margin: 0 auto;
+   overflow: auto;
+}
+.concept-text-1 {
+}
+.concept-text-2 {
+}
+.concept-box {
+   background-color: #ffc85c;
+   padding: 10px 30px;
+   margin: 0px 20px 20px 0px;
+}
+.concept-box-text {
+   font-style: italic;
+   margin: 0;
+   font-size: 18px;
+}
+
+.footer {
+   text-align: center;
+}
