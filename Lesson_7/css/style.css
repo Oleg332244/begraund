@@ -1,0 +1,78 @@
+/* &display=swap */
+@import "null.css";
+/* ================================================================ */
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap");
+/* ================================================================ */
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+}
+/* ================================================================ */
+body {
+   background: url(../img/4.jpg) top / cover no-repeat fixed;
+}
+.container {
+   max-width: 900px;
+   margin: 0 auto;
+   padding: 20px 0px 30px 0px;
+   font-family: lato, Arial, sans-serif;
+   color: #424551;
+   font-size: 16px;
+}
+h1 {
+   text-align: center;
+   font-size: 50px;
+   font-weight: 700;
+   margin: 0px 0px 50px 0px;
+}
+.subtitle {
+   font-weight: 700;
+   font-size: 25px;
+   text-align: center;
+   margin: 0px 0px 30px 0px;
+}
+p {
+   margin: 0px 0px 20px 0px;
+}
+.block {
+   max-width: 700px;
+   padding: 20px;
+   border-radius: 15px;
+   box-shadow: 23px 19px 12px -3px rgba(34, 60, 80, 1);
+}
+.history {
+   background: url(../img/10.jpg) top / cover no-repeat;
+   color: #fff;
+   margin: 0px 0px 50px 0px;
+}
+.falcon-1 {
+   color: blue;
+   background: url(../img/spacex-2.jpg) 0 0/100% 100% no-repeat;
+   margin: 0px 0px 50px auto;
+}
+.falcon-9 {
+   color: black;
+   background: url(../img/spacex-3.jpg) 0 0 local;
+   max-height: 300px;
+   overflow: auto;
+   margin: 0px 0px 50px 0px;
+}
+.progekt-todey {
+   background: url(../img/7.jpg) top / contain repeat fixed;
+   color: antiquewhite;
+   margin: 0px 0px 50px auto;
+}
+.facktor-saxes {
+   background: linear-gradient(45deg, rgb(172, 153, 50) 30%, rgb(251, 255, 0) 59%, rgb(242, 208, 208) 93%);
+}
+
+.footer-block {
+   text-align: center;
+   font-size: 30px;
+   margin: 0px 0px 50px 0px;
+}
+.footer-block a {
+   display: inline-block;
+   margin: 0px 70px 0px 0px;
+   color: aqua;
+}
