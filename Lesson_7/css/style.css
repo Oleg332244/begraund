@@ -52,7 +52,7 @@ p {
 }
 .falcon-9 {
    color: black;
-   background: url(../img/spacex-3.jpg) 0 0 local;
+   background: url(../img/spacex-3.jpg) 0 0 / auto auto no-repeat;
    max-height: 300px;
    overflow: auto;
    margin: 0px 0px 50px 0px;
