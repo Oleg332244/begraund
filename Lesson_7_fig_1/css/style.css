@@ -47,10 +47,7 @@ span {
 img {
    max-width: 100%;
 }
-.center {
-}
-.center-subtitle-1 {
-}
+
 .subtitle {
    font-weight: 700;
    font-size: 20px;
@@ -67,8 +64,7 @@ p {
    padding: 0px 0px 0px 55px;
    background: url(../img/bing-2.png) no-repeat;
 }
-.bottom {
-}
+
 .bottom-list {
    margin: 0px 0px 40px 0px;
 }
