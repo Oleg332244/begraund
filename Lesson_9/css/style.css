@@ -1,0 +1,177 @@
+/* &display=swap */
+@import "null.css";
+/* ================================================================ */
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+   background: url(../img/golovna.jpg) 0 0 / cover no-repeat;
+}
+/* ================================================================ */
+
+.container {
+   max-width: 900px;
+   margin: 0px auto;
+   padding: 20px 0px 20px 0px;
+}
+
+h1 {
+   text-align: center;
+   font-size: 20px;
+   text-shadow: 5px 5px #558abb;
+   margin: 0px 0px 20px 0px;
+}
+
+.line-1 {
+   width: 50px;
+   height: 30px;
+   background: url("../img/svg/rout-2.jpg");
+   margin: 0 auto;
+   cursor: help;
+   box-shadow: 13px 15px 8px 0px rgba(34, 60, 80, 1);
+}
+.line-2 {
+   width: 52.75%;
+   height: 50px;
+   background: url("../img/svg/rout-2.jpg");
+   margin: auto 0;
+   cursor: move;
+   visibility: hidden;
+   box-shadow: 13px 15px 8px 0px rgba(34, 60, 80, 1);
+}
+.line-2 img {
+   max-width: 100%;
+   max-height: 100%;
+}
+
+.line-3 {
+   width: 40px;
+   height: 100px;
+   background: url("../img/svg/rout-2.jpg");
+   cursor: pointer;
+   visibility: hidden;
+   box-shadow: 13px 15px 8px 0px rgba(34, 60, 80, 1);
+}
+.line-4 {
+   width: 100%;
+   height: 40px;
+   background: url("../img/svg/rout-2.jpg");
+   cursor: progress;
+   visibility: hidden;
+   box-shadow: 13px 15px 8px 0px rgba(34, 60, 80, 1);
+}
+.line-5 {
+   width: 30px;
+   height: 90px;
+   background: url("../img/svg/rout-2.jpg");
+   margin: 0px 0px 0px auto;
+   cursor: wait;
+   visibility: hidden;
+   box-shadow: 13px 15px 8px 0px rgba(34, 60, 80, 1);
+}
+.line-6 {
+   width: 30%;
+   height: 40px;
+   background: url("../img/svg/rout-2.jpg");
+   margin: 0px 0px 0px auto;
+   cursor: cell;
+   visibility: hidden;
+   box-shadow: 13px 15px 8px 0px rgba(34, 60, 80, 1);
+}
+.line-7 {
+   width: 30px;
+   height: 150px;
+   background: url("../img/svg/rout-2.jpg");
+   margin: 0px 26.6% 0px auto;
+   cursor: crosshair;
+   visibility: hidden;
+   box-shadow: 13px 15px 8px 0px rgba(34, 60, 80, 1);
+}
+.line-8 {
+   width: 70%;
+   height: 30px;
+   background: url("../img/svg/rout-2.jpg");
+   margin: 0px 26.6% 0px auto;
+   cursor: alias;
+   visibility: hidden;
+   box-shadow: 13px 15px 8px 0px rgba(34, 60, 80, 1);
+}
+.line-9 {
+   width: 20px;
+   height: 100px;
+   background: url("../img/svg/rout-2.jpg");
+   margin: 0px 0px 0px 3.4%;
+   cursor: vertical-text;
+   visibility: hidden;
+   box-shadow: 13px 15px 8px 0px rgba(34, 60, 80, 1);
+}
+.line-10 {
+   width: 20px;
+   height: 20px;
+   background: url("../img/svg/rout-2.jpg");
+   margin: 0px 0px 0px 3.4%;
+   cursor: vertical-text;
+   visibility: hidden;
+   box-shadow: 13px 15px 8px 0px rgba(34, 60, 80, 1);
+}
+h2 {
+   text-align: center;
+   font-size: 50px;
+   text-transform: uppercase;
+}
+
+.line-11 {
+   /* max-width: 700px; */
+   background: linear-gradient(45deg, rgb(172, 153, 50) 30%, rgb(251, 255, 0) 59%, rgb(242, 208, 208) 93%);
+   padding: 50px;
+   margin: 0px 0px 0px 3.5%;
+   cursor: url("../img/svg/red-check.svg"), pointer;
+   visibility: hidden;
+}
+.line-11 img {
+   max-width: 100%;
+}
+
+.line-1:hover + .line-2,
+.line-2:hover {
+   visibility: visible;
+}
+.line-2:hover + .line-3,
+.line-3:hover {
+   visibility: visible;
+}
+.line-3:hover + .line-4,
+.line-4:hover {
+   visibility: visible;
+}
+.line-4:hover + .line-5,
+.line-5:hover {
+   visibility: visible;
+}
+.line-5:hover + .line-6,
+.line-6:hover {
+   visibility: visible;
+}
+.line-6:hover + .line-7,
+.line-7:hover {
+   visibility: visible;
+}
+.line-7:hover + .line-8,
+.line-8:hover {
+   visibility: visible;
+}
+.line-8:hover + .line-9,
+.line-9:hover {
+   visibility: visible;
+}
+.line-9:hover + .line-10,
+.line-10:hover {
+   visibility: visible;
+}
+.line-10:hover + .line-11,
+.line-11:hover {
+   visibility: visible;
+}
+
+line:hover {
+   visibility: visible;
+}
