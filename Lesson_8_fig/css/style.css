@@ -40,7 +40,8 @@ h1 {
 }
 
 .list li {
-   margin: 0px 0px 10px 30px;
+   padding: 0px 0px 0px 32px;
+   margin: 0px 0px 10px 0px;
 }
 .list:last-child {
    margin-bottom: 0;
@@ -48,11 +49,11 @@ h1 {
 
 .list li::before {
    content: "";
+   width: 16px;
+   height: 16px;
+   margin: 0px 16px -2px -32px;
    display: inline-block;
-   width: 30px;
-   height: 18px;
-   margin: 0px 0px 0px -30px;
-   background: url("../img/icons/red-check.svg") 0px 4px / 14px no-repeat;
+   background: url("../img/icons/red-check.svg") 0px 0/ 16px no-repeat;
 }
 
 .link {
