@@ -2,12 +2,15 @@
 @import "null.css";
 
 /* ================================================================ */
+body {
+   background-color: #f9d949;
+}
+
 .wrapper {
    min-height: 100%;
    overflow: hidden;
    font-size: 20px;
    background: url("../img/golovna.jpg") top no-repeat;
-   background-color: #f9d949;
 }
 /* ================================================================ */
 .main {
