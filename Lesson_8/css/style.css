@@ -10,7 +10,7 @@
 /* ================================================================ */
 .main {
    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-   background: url("../img/golovna.jpg") top no-repeat;
+   background: url(../img/golovna.jpg) top no-repeat;
 }
 .container {
    max-width: 800px;
