@@ -1,0 +1,152 @@
+/* &display=swap */
+@import "null.css";
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,700,900");
+/* ================================================================ */
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+}
+/* ================================================================ */
+
+.container {
+   max-width: 810px;
+   margin: 0 auto;
+   padding: 50px 0px 50px 0px;
+   font-family: Lato, sans-serif;
+   font-size: 16px;
+}
+
+.top h1 {
+   color: #1e212c;
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 1.3;
+   text-align: center;
+   margin-bottom: 44px;
+}
+
+.date-and-time {
+   margin-bottom: 47px;
+   display: inline-block;
+}
+
+.img-main {
+   margin-bottom: 50px;
+}
+
+.date {
+   display: inline-block;
+   padding-left: 20px;
+   background: url("../img/Calendar.png") left / 16px 16px no-repeat;
+}
+
+.time {
+   display: inline-block;
+   padding-left: 20px;
+   background: url("../img/Clock.png") left / 16px 16px no-repeat;
+   margin-left: 24px;
+}
+
+.date-and-time {
+   font-weight: 400;
+   line-height: 1.6;
+   font-size: 16px;
+   color: rgba(120, 122, 128, 1);
+}
+
+.share {
+   display: inline-block;
+   margin-left: 390px;
+}
+.botom-share span,
+.share span {
+   line-height: 1.6;
+   color: #1e212c;
+   font-weight: 700;
+   display: inline-block;
+   margin: 0px 10px 0px 0px;
+}
+.botom-share img,
+.share img {
+   margin: 0px 10px 0px 0px;
+}
+
+.share img:hover,
+.botom-share img:hover {
+   background-color: #ccc;
+}
+
+.about-text.bold {
+   color: #1e212c;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 1.5;
+   margin-bottom: 24px;
+}
+
+.about-text-1 {
+   margin-bottom: 20px;
+}
+
+.about p {
+   color: #424551;
+   font-weight: 400;
+   line-height: 1.6;
+}
+
+.about {
+   margin-bottom: 48px;
+}
+
+.review {
+   color: #1e212c;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 1.5;
+   background: url("../img/braces.png") 0 0 / 28px 20px no-repeat;
+   padding-left: 58px;
+   margin-bottom: 48px;
+}
+
+.company {
+   color: #1e212c;
+   line-height: 1.6;
+   margin-bottom: 30px;
+}
+.company p {
+   margin-bottom: 24px;
+}
+
+.list li {
+   background: url("../img/check.png") left / auto no-repeat;
+   padding-left: 30px;
+   margin-bottom: 5px;
+}
+.list:last-child {
+   margin-bottom: 0;
+}
+.about-down-text {
+   margin-bottom: 40px;
+}
+
+.about-down-text p {
+   color: #1e212c;
+   line-height: 1.6;
+}
+.botom-share {
+   display: inline-block;
+   margin: 0px 0px 0px 650px;
+}
+
+.footer-block {
+   text-align: center;
+   font-size: 30px;
+   min-height: 70px;
+   padding: 20px 0px 0px 0px;
+}
+.footer-block a {
+   color: aqua;
+}
+.footer-block a:hover {
+   color: green;
+}
