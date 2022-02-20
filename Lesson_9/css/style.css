@@ -34,7 +34,7 @@ h1 {
    background: url("../img/svg/rout-2.jpg");
    margin: auto 0;
    cursor: move;
-   /* visibility: hidden; */
+   visibility: hidden;
    box-shadow: 13px 15px 8px 0px rgba(34, 60, 80, 1);
 }
 .line-2 img {
@@ -47,7 +47,7 @@ h1 {
    height: 40px;
    background: url("../img/svg/rout-2.jpg");
    cursor: pointer;
-   /* visibility: hidden; */
+   visibility: hidden;
    box-shadow: 13px 15px 8px 0px rgba(34, 60, 80, 1);
 }
 .line-4 {
@@ -55,7 +55,7 @@ h1 {
    height: 40px;
    background: url("../img/svg/rout-2.jpg");
    cursor: progress;
-   /* visibility: hidden; */
+   visibility: hidden;
    box-shadow: 13px 15px 8px 0px rgba(34, 60, 80, 1);
 }
 .line-5 {
@@ -64,7 +64,7 @@ h1 {
    background: url("../img/svg/rout-2.jpg");
    margin: 0px 0px 0px auto;
    cursor: wait;
-   /* visibility: hidden; */
+   visibility: hidden;
    box-shadow: 13px 15px 8px 0px rgba(34, 60, 80, 1);
 }
 .line-6 {
@@ -73,7 +73,7 @@ h1 {
    background: url("../img/svg/rout-2.jpg");
    margin: 0px 0px 0px auto;
    cursor: cell;
-   /* visibility: hidden; */
+   visibility: hidden;
    box-shadow: 13px 15px 8px 0px rgba(34, 60, 80, 1);
 }
 .line-7 {
@@ -82,7 +82,7 @@ h1 {
    background: url("../img/svg/rout-2.jpg");
    margin: 0px 26.6% 0px auto;
    cursor: alias;
-   /* visibility: hidden; */
+   visibility: hidden;
    box-shadow: 13px 15px 8px 0px rgba(34, 60, 80, 1);
 }
 .line-8 {
@@ -91,7 +91,7 @@ h1 {
    background: url("../img/svg/rout-2.jpg");
    margin: 0px 26.6% 0px auto;
    cursor: crosshair;
-   /* visibility: hidden; */
+   visibility: hidden;
    box-shadow: 13px 15px 8px 0px rgba(34, 60, 80, 1);
 }
 .line-9 {
@@ -100,7 +100,7 @@ h1 {
    background: url("../img/svg/rout-2.jpg");
    margin: 0px 0px 0px 3.4%;
    cursor: vertical-text;
-   /* visibility: hidden; */
+   visibility: hidden;
    box-shadow: 13px 15px 8px 0px rgba(34, 60, 80, 1);
 }
 .line-10 {
@@ -109,7 +109,7 @@ h1 {
    background: url("../img/svg/rout-2.jpg");
    margin: 0px 0px 0px 3.4%;
    cursor: vertical-text;
-   /* visibility: hidden; */
+   visibility: hidden;
    box-shadow: 13px 15px 8px 0px rgba(34, 60, 80, 1);
 }
 h2 {
@@ -120,12 +120,11 @@ h2 {
 
 .line-11 {
    max-height: 30%;
-   /* max-width: 700px; */
    background: linear-gradient(45deg, rgb(172, 153, 50) 30%, rgb(251, 255, 0) 59%, rgb(242, 208, 208) 93%);
    padding: 20px;
    margin: 0px 0px 0px 3.5%;
    cursor: url("../img/svg/red-check.svg"), pointer;
-   /* visibility: hidden; */
+   visibility: hidden;
 }
 .line-11 img {
    max-width: 100%;
